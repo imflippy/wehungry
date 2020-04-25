@@ -1,0 +1,37 @@
+.well {
+    background-color: #ffffff;
+    border: medium none;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: none;
+}
+
+.well-ef {
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    margin: 10px 0;
+}
+
+.well-ef:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.well-lg {
+    padding: 30px;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: none;line-height: 1.6;
+}
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+

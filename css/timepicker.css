@@ -1,0 +1,66 @@
+.ui-timepicker-wrapper {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    z-index: 10001;
+    margin: 0;
+}
+.ui-timepicker-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ui-timepicker-wrapper ul li {
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.ui-timepicker-wrapper ul li:hover,
+.ui-timepicker-wrapper ul li.active {
+    color: #ffffff;
+    background-color: #1c1c1c;
+}
+/*----------------
+Date-Picker-Style
+-----------------*/
+.datepicker-dropdown {
+    padding: 5px 20px;
+}
+.datepicker .prev,
+.datepicker .next,
+.datepicker td {
+    cursor: pointer;
+    text-align: center;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 2px;
+    padding-bottom: 10px !important;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.datepicker-switch {
+    text-align: center;
+    cursor: pointer;
+    padding : 0 5px !important; 
+}
+.datepicker .month {
+	padding: 0 1px;
+    display: block;
+    min-width: 160px;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+.datepicker .active {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
